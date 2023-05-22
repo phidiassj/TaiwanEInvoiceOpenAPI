@@ -3,8 +3,8 @@
 Functionalities about user management and operations.
 
 ### ./Register
-**URL**: `https://api.utunote.com/Users/Register`
-**Method**: POST
+**URL**: `https://api.utunote.com/Users/Register`  
+**Method**: POST  
 **Description**: 
 
 ### ./Login

@@ -43,11 +43,11 @@ Please make sure to replace "token" with the actual JWT token.
 
 Each directory has its subdirectories or function descriptions, the following is the description of each root directory:
 
-###EInvoiceAPI:###
+### EInvoiceAPI:
 Contains all functionalities related to electronic invoices.
 
-###BusinessAPI:### 
+### BusinessAPI: 
 Various tools required for searching business registration information, validating mobile barcodes, and other functionalities related to issuing electronic invoices.
 
-###Users:### 
+### Users: 
 Functionalities about user management and operations.

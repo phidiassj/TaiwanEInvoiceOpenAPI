@@ -34,17 +34,20 @@ In most endpoints, you will need to include the JWT token in the Authorization h
 
 For example, you would include the JWT token in the Authorization header as follows:
 
-Authorization: Bearer <JWT Token>
+Authorization: Bearer token
 
-Please make sure to replace <JWT Token> with the actual JWT token.
+Please make sure to replace "token" with the actual JWT token.
 
 
 ## Directory Descriptions
 
 Each directory has its subdirectories or function descriptions, the following is the description of each root directory:
 
-**EInvoiceAPI**: Contains all functionalities related to electronic invoices.
+###EInvoiceAPI:###
+Contains all functionalities related to electronic invoices.
 
-**BusinessAPI**: Various tools required for searching business registration information, validating mobile barcodes, and other functionalities related to issuing electronic invoices.
+###BusinessAPI:### 
+Various tools required for searching business registration information, validating mobile barcodes, and other functionalities related to issuing electronic invoices.
 
-**Users**: Functionalities related to user management and operations.
+###Users:### 
+Functionalities about user management and operations.

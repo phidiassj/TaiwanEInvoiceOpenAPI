@@ -8,9 +8,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "方案項目", "方案項�
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EInvoiceAPI", "EInvoiceAPI", "{E8421B16-1757-40CE-83E8-B431F1B1F18A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessAPI", "BusinessAPI", "{77A86B15-7D27-4316-B6D7-ACD890EC264E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{610AE83F-228E-49F2-BEFC-7B3FEA584094}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8421B16-1757-40CE-83E8-B431F1B1F18A} = {BB16BDD2-C27E-478F-B470-828AB8EAC925}
+		{77A86B15-7D27-4316-B6D7-ACD890EC264E} = {BB16BDD2-C27E-478F-B470-828AB8EAC925}
+		{610AE83F-228E-49F2-BEFC-7B3FEA584094} = {BB16BDD2-C27E-478F-B470-828AB8EAC925}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B60C09F-F6FB-4165-800E-6C66417EE98F}

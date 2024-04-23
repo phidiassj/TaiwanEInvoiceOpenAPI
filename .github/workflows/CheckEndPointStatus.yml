@@ -1,0 +1,16 @@
+name: CheckEndPointStatus
+on:
+  schedule:
+    - cron: '*/20 * * * *'
+jobs:
+  check-api:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check API
+        id: api
+        run: |
+          STATUS=$(curl --silent --output /dev/null --write-out "%{http_code}" https://api.utunote.com/AIbo/webhook/status)
+          if [ "$STATUS" -ne 200 ]; then
+            echo "API is not responding" >&2
+            exit 1
+          fi

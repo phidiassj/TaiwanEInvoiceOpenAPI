@@ -1,7 +1,7 @@
 name: CheckEndPointStatus
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/5 * * * *'
 jobs:
   check-api:
     runs-on: ubuntu-latest
